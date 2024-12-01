@@ -1,1 +1,24 @@
-site_name: My Docs
+site_name: ProjectPath-Pro Database
+site_description:
+  The ProjectPath-Pro Database is where all important business info is stored. This documentaion includes the data model design, entity and relationship descriptions, the data dictionary, considerations about the database, etc.
+site_author: Gerson Vidal Alcantara
+
+nav:
+  - Home: index.md
+  - User Guide:
+      - Introduction: guide/introduction.md
+      - Getting Started: guide/getting_started.md
+      - Common Queries: guide/common_queries.md
+  - DB Documentation:
+      - Introduction: db/introduction.md
+      - Data Model Design:
+          - Entity Relationship Diagram: db/data_model_design/er_diagram.md
+          - Relational Model Diagram: db/data_model_design/rm_diagram.md
+          - Data Dictionary: db/data_model_design/data_dictionary.md
+
+theme:
+  name: mkdocs
+  user_color_mode_toggle: true
+
+site_url: ""
+use_directory_urls: false
